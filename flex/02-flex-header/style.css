@@ -18,9 +18,13 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  padding: 32px;
+  margin: 0;
 }
 
-a {
+.left-links a,
+.right-links a {
   font-size: 22px;
   background: white;
   padding: 8px;
