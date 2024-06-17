@@ -41,7 +41,7 @@ img {
 .plant-two,
 .plant-three,
 .plant-four {
-  width: 200px;
+  max-width: 200px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
