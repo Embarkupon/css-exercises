@@ -73,6 +73,13 @@ button.cancel {
   display: flex;
   padding: 18px;
 }
+
 .icon {
   flex: 1 0 auto;
+}
+
+.header {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
 }
