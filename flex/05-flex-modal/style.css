@@ -71,7 +71,8 @@ button.cancel {
 /* my solution */
 .modal {
   display: flex;
-  padding: 18px;
+  padding: 16px;
+  gap: 16px;
 }
 
 .icon {
@@ -80,6 +81,24 @@ button.cancel {
 
 .header {
   font-weight: bold;
+  font-size: large;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 8px;
+  align-items: center;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  margin-bottom: 16px;
+}
+
+.buttons {
+  display: flex;
+  gap: 4px;
+}
+
