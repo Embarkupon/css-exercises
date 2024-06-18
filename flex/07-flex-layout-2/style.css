@@ -41,3 +41,10 @@ body {
   font-size: x-large;
   font-weight: 900;  
 }
+
+.footer {
+  flex: initial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
