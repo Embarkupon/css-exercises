@@ -26,14 +26,22 @@ input {
 }
 
 /* my solution */
-.header {
+.header,
+.footer {
   display: flex;
   justify-content: space-between;
-
 }
 
-.header .left-links,
+.left-links,
 .right-links {
   display: flex;
   gap: 18px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
