@@ -72,6 +72,22 @@ width of the container is accounted for */
   padding: 16px;
 }
 
+ul {
+  list-style: none;
+  margin: 16px;
+  padding: 16px;
+}
+
+li {
+  padding: 8px;
+}
+
+a {
+  font-style: none;
+  color: white;
+  text-decoration: none;
+}
+
 /* footer, is styled to stay at the bottom of the page */
 .footer {
   flex: initial;
